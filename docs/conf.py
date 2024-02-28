@@ -4,10 +4,7 @@
 
 project = u'MRF & TAPASS - TR analysis'
 copyright = u'2024, Layla Hirsh'
-author = u'Layla Hirsh'
-author = u'Hector Henao'
-author = u'Stefany Neciosup'
-author = u'Andrei Kajava'
+author = u'Layla Hirsh, Hector Henao, Stefany Neciosup,Andrei Kajava'
 """
 Shared Sphinx configuration using sphinx-multiproject.
 
