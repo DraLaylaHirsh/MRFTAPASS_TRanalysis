@@ -41,7 +41,7 @@ Coverage = (6 / 23)*100 = 26.09, threshold not achieved
 
 .. image:: /images/disorder.png
 
-functional domain
+Functional domain
 -----------------
 For each of the identified lines for the protein In TAPASS file:  Calculate the total number of amino acids of the TAPASS prediction (Ntaa) and the number of amino acids that are overlapping with the MRF prediction (Naao)  of the Tandem repeat region (TR region). 
 
@@ -98,7 +98,7 @@ C (3/6)x100 = 50 >= 50, threshold achieved
 
 .. image:: /images/structured.png
 
-amyloidogenicity_AR
+Amyloidogenicity_AR
 --------------------
 For each of the identified lines for the protein: Calculate the number of amino acids that are overlapping with the MRF prediction (Naao)  of the Tandem repeat region (TR region).
 
@@ -117,7 +117,7 @@ In the example:
 
 .. image:: /images/AR.png
 
-amyloidogenicity_EAR
+Amyloidogenicity_EAR
 --------------------
 For each of the identified lines for the protein: Calculate the number of amino acids that are overlapping with the MRF prediction (Naao)  of the Tandem repeat region (TR region).
 
