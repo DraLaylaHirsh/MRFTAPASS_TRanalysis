@@ -33,7 +33,7 @@ If the threshold is achieved (coverage>=50)the processed output line should be s
 (External file: ID, first, last)
 
 The coverage is calculated by:
-TNaao = Σ (Naao of each disorder region)
+TNaao = \Sigma (Naao of each disorder region)
 Coverage = (TNaao /  MRFaa) * 100 >= 50
 In the example: 
 TNaao = A + B + C = 2 + 3 + 2 = 6
