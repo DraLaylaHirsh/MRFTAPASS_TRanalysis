@@ -30,7 +30,7 @@ MRF process
 
 
 TAPASS process
------------
+--------------
 
 .. image:: /images/tapassprocess.png
 
