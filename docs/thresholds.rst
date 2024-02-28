@@ -32,7 +32,7 @@ MRF variables: start , end
 If the threshold is achieved (coverage >= 50)the processed output line should be saved in TAPASS annotation file and the protein repeat region should be saved to the disorder list (external file). 
 (External file: ID, first, last)
 The coverage is calculated by:
-TNaao = Sigma (Naao of each disorder region)
+TNaao = \Sigma (Naao of each disorder region)
 Coverage = (TNaao /  MRFaa) * 100 >= 50
 In the example: 
 TNaao = A + B + C = 2 + 3 + 2 = 6
