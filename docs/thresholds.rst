@@ -81,7 +81,7 @@ C (2/5)x100 = 40 < 50, threshold not achieved
 .. image:: /images/slim.png
 
 Structured domain
---------------------
+-----------------
 For each of the identified lines for the protein In TAPASS file:  Calculate the total number of amino acids of the TAPASS prediction (Ntaa) and the number of amino acids that are overlapping with the MRF prediction (Naao)  of the Tandem repeat region (TR region). 
 
 TAPASS variables:  first_residue_involved , last_residue_involved
@@ -133,4 +133,5 @@ The coverage is calculated by:
 In the example: 
 15 >= 15 ,  threshold achieved
 6  < 15 , threshold not achieved
+
 .. image:: /images/EAR.png
