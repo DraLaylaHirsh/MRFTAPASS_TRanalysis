@@ -26,9 +26,6 @@ MRF process
 7: TablesTR_fullSteps.py
 
 
-
-
-
 TAPASS process
 --------------
 
@@ -43,6 +40,5 @@ TAPASS process
 8: executes tapass in the chosen set
 9: Get all the lines that correspond to one protein, see which one of them overlaps with a repeat region from MRF. Then for each repeat region analyze all the resulting predicted lines from tapass using the threshold rules.
 10: If the threshold is achieved save the corresponding tapass lines predicted in the 10a file
-11: Create a merge in where the user can select all or some of the following: transmembrane, disorder,
- functional domain, SLIMs, structural domain, amyloidogenicity_AR and amyloidogenicity_AR for the MRF repeat regions of a chosen set.
+11: Create a merge in where the user can select all or some of the following: transmembrane, disorder, functional domain, SLIMs, structural domain, amyloidogenicity_AR and amyloidogenicity_AR for the MRF repeat regions of a chosen set.
 12: If there are lines that do not overlap but their prediction tool is PFAM, CATH or ELM or SignalP then save all the corresponding information from tapass in 12a file 
