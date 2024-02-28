@@ -29,14 +29,15 @@ For each of the identified lines for the protein In TAPASS file:  Calculate the 
 TAPASS variables:  first_residue_involved , last_residue_involved
 MRF variables: start , end 
 
-If the threshold is achieved (coverage>=50)the processed output line should be saved in TAPASS annotation file and the protein repeat region should be saved to the disorder list (external file). (External file: ID, first, last)
+If the threshold is achieved (coverage >= 50)the processed output line should be saved in TAPASS annotation file and the protein repeat region should be saved to the disorder list (external file). 
+(External file: ID, first, last)
 The coverage is calculated by:
 TNaao = Sigma (Naao of each disorder region)
 Coverage = (TNaao /  MRFaa) * 100 >= 50
 In the example: 
 TNaao = A + B + C = 2 + 3 + 2 = 6
 MRFaa = 23
-Coverage = (6 / 23 ) *100 = 26.09, threshold not achieved
+Coverage = (6 / 23)*100 = 26.09, threshold not achieved
 
 .. image:: /images/disorder.png
 
@@ -45,7 +46,7 @@ functional domain
 For each of the identified lines for the protein In TAPASS file:  Calculate the total number of amino acids of the TAPASS prediction (Ntaa) and the number of amino acids that are overlapping with the MRF prediction (Naao)  of the Tandem repeat region (TR region). 
 
 TAPASS variables:  first_residue_involved , last_residue_involved
-MRF variables: start , end 
+MRF variables: start, end 
 
 If the threshold is achieved (coverage>=60)the processed output line should be saved in TAPASS annotation file and the protein repeat region should be saved to the functional domain list (external file).
 (External file: ID, first, last, accession)
