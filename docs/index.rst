@@ -35,3 +35,15 @@ Results
 .. toctree::
 
    results
+
+
+******
+Usage
+******
+
+.. toctree::
+
+   input
+   MRF_TAPASS
+   analisys
+   output
